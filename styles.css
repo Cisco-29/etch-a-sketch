@@ -6,11 +6,15 @@ body{
     /*this class to be used when mouse is hovering over a square*/
     background-color: rgb(240, 248, 255);
     opacity: 0.2;
-    transition: all 1s ease;
+    transition: all 3.5s ease;
 }
 
 .box:hover{
     opacity: 1;
     transition: none;
 
+}
+
+#gridSizeBtn{
+    width: 800px;
 }
