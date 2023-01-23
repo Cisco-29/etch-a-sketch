@@ -41,8 +41,22 @@ function createBoxes(row) {
         box.style.height = "50px";
         box.style.width = "50px";
         box.style.border = "0.25px solid grey";
+        box.classList.add("box");
+
+
 
         row.appendChild(box);
     }
 }
 
+        // hover funtionality goes here
+        
+
+
+
+
+
+
+
+
+        // -----------------------------
